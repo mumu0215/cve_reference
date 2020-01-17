@@ -26,3 +26,7 @@ The exploit is located in the background home page-> theme module-> "theme optio
 The successful exploitation of the attack is as follows:
 
 ![successus.jpg](/src/cve/Snipaste_2020-01-16_15-39-42.png)
+
+## Attachment
+[attachment for exploit](/src/cve/gif89a.jpg)
+
